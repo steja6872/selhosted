@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: PowerShell script
     # uses: Amadevus/pwsh-script@1f1751bbf3d1a92127bfc6c32403283625880cbf 
-        uses: Amadevus/pwsh-script@v2.0.1
+        uses: Amadevus/pwsh-script@v3.0.1
         with:
-         poweshell-version: 2.0.1
+         poweshell-version: 3.0.1
       - name: setup job
         run: .\example.ps1
